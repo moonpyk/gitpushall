@@ -1,1 +1,1 @@
-require('./lib/git-pushall.js').main(process.argv);
+require('./lib/main.js').main(process.argv);
