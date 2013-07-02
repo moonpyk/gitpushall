@@ -1,0 +1,1 @@
+require('./lib/git-pushall.js').main(process.argv);

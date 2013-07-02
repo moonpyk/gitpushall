@@ -17,12 +17,12 @@
             "url": "https://github.com/moonpyk/git-pushall/blob/master/LICENSE-MIT.txt"
         }
     ],
-    "main": "lib/git-pushall",
+    "main": "index.js",
     "engines": {
         "node": ">= 0.8.0"
     },
     "scripts": {
-        "test": "grunt nodeunit"
+        "test": "grunt jshint nodeunit"
     },
     "devDependencies": {
         "grunt-contrib-jshint": "~0.6.0",
