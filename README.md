@@ -1,9 +1,9 @@
-# git-pushall [![Build Status](https://secure.travis-ci.org/moonpyk/git-pushall.png?branch=master)](http://travis-ci.org/moonpyk/git-pushall)
+# gitpushall [![Build Status](https://secure.travis-ci.org/moonpyk/gitpushall.png?branch=master)](http://travis-ci.org/moonpyk/gitpushall)
 
 Utility to push to multiple remotes of a git repo in one command
 
 ## Getting Started
-Install the module with: `npm install -g git-pushall`
+Install the module with: `npm install -g gitpushall`
 
 ## Documentation
 _(Coming soon)_
