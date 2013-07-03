@@ -18,6 +18,9 @@
         }
     ],
     "main": "index.js",
+    "bin": {
+        "git-pushall": "./bin/git-pushall"
+    },
     "engines": {
         "node": ">= 0.8.0"
     },
