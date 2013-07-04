@@ -1,7 +1,7 @@
 {
     "name": "gitpushall",
     "description": "Utility to push to multiple remotes of a git repo in one command",
-    "version": "0.0.1-alpha",
+    "version": "0.1.0",
     "author": {
         "name": "Clément Bourgeois",
         "email": "moonpyk@gmail.com",
