@@ -1,4 +1,4 @@
-# gitpushall [![Build Status](https://secure.travis-ci.org/moonpyk/gitpushall.png?branch=master)](http://travis-ci.org/moonpyk/gitpushall)
+# gitpushall [![Build Status](https://secure.travis-ci.org/moonpyk/gitpushall.png?branch=master)](http://travis-ci.org/moonpyk/gitpushall) [![Dependency Status](https://gemnasium.com/moonpyk/gitpushall.png)](https://gemnasium.com/moonpyk/gitpushall)
 
 Utility to push to multiple remotes of a git repo in one command.
 
