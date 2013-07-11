@@ -1,6 +1,6 @@
 /*
- * git-pushall
- * https://github.com/moonpyk/git-pushall
+ * gitpushall
+ * https://github.com/moonpyk/gitpushall
  *
  * Copyright (c) 2013 Clément Bourgeois
  * Licensed under the MIT license.
@@ -33,6 +33,12 @@
         console.log("Found : %s", found);
 
         test.notEqual(found, null);
+        test.done();
+    };
+
+    exports.lookupForGitWorks = function (test) {
+        var cwd = process.cwd();
+        test.equal(git.lookupForGit(cwd), git.lookupFor(cwd, ".git"));
         test.done();
     };
 
