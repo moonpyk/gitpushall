@@ -18,8 +18,21 @@
         done();
     };
 
-    exports.noop = function (test) {
-        test.ok(true);
+    exports.lookupForWontRecurseInfinitely = function (test) {
+        // Almost no chance to find a directory named like that
+        var rndPath = ".test_" + Math.round((Math.random() + 1) * 1000000);
+
+        test.equal(git.lookupFor(process.cwd(), rndPath), null);
+        test.done();
+    };
+
+    exports.lookupForWillFindAGitRepo = function (test) {
+        var found = git.lookupFor(process.cwd(), ".git");
+
+        console.log();
+        console.log("Found : %s", found);
+
+        test.notEqual(found, null);
         test.done();
     };
 
